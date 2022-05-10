@@ -21,3 +21,17 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Bazel
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-csci390-examples
+bazel-testlogs
+.base-bazelrc-jdk
+.user-bazelrc
+.user-bazelrc-cache
+unused_deps.txt
+resolved_repos.bzl
+remaining_setup_steps.txt
+cache-clean-check_marker.txt
